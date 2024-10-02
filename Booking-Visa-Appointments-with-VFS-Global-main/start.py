@@ -104,6 +104,7 @@ start_reservation_button.click()
 
 
 
+
 # Click the "Şartlar ve Koşullar" checkbox and continue
 def accept_terms():
     # Check the terms and conditions box
@@ -156,7 +157,7 @@ submit_form()
 # E-posta gönderme fonksiyonu
 def send_email(subject, body, to_email):
     sender_email = "papa.cafercan@gmail.com"
-    sender_password = "vbcaeuhbxplkidhz"  # 16 karakterlik şifren
+    sender_password = ""  # 16 karakterlik şifren
 
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
